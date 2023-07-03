@@ -1,0 +1,105 @@
+.kidsproduct{
+    padding-top: 7rem;
+    .kids{
+        background-color: #ffe5a0b0;
+        border-radius: 50px;
+        .container{ 
+            background-image: url("../../media//New\ folder/backgroundimg.svg"); }
+    .kidsimg{
+        img{
+        max-width: calc(90% + 40px);
+        margin-top: -4rem;
+        }
+    }
+    .kidsproduct_details{
+        line-height: 30px;
+
+        $color: rgb(15,23,42);
+
+        button {
+          display: inline-block;
+          border: none;
+          width: 75%;
+          padding: .75rem 1.25rem;
+          border-radius: 10px;
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 1rem;
+          transition: all .3s;
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $color;
+            z-index: -2;
+          }
+          &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: darken($color, 15%);
+            transition: all .3s;
+            z-index: -1;
+          }
+          &:hover {
+            color: #fff;
+            &:before {
+              width: 100%;
+            }
+          }
+        }
+    }
+}
+@media (max-width:1020px) {
+     h2{
+        font-size: 15px !important;
+    }
+    .kids{
+        .container{
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 6rem !important;
+            .kidsimg{
+                width: 100% !important;
+            }
+        }
+        .kidsproduct_details{
+            width: 100% !important;
+            padding-top: 4rem;
+        }
+    }
+}
+@media (max-width:900px) {
+    .kidsproduct_details {
+    img{
+        margin: auto;
+    }
+    span{
+        text-align: center;
+    }
+    p{
+        text-align: -webkit-center;
+    }
+    button{
+        margin: auto;
+    }
+    }
+}
+@media (max-width:400px) {
+    .kidsproduct_details {
+    button{
+        font-size: 12px;
+        padding-inline: 0 !important;
+        padding-block: 0 !important;
+    }}
+}
+}

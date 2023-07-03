@@ -1,0 +1,20 @@
+.navigatedate{
+    .tabs{
+        border: 1px solid #c8d7cf;
+        border-radius: 10px;
+        width: fit-content;
+       
+       .btn{ outline: none;
+       }
+    }
+    .active-tab{
+        background-color:#c8d7cf;
+        outline: none;
+    }
+    .content-area{
+        display: none;
+    }
+    .active-area{
+        display: block;
+    }
+}

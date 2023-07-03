@@ -1,0 +1,26 @@
+.start-exploring{
+display: flex;
+justify-content: center;
+background: ghostwhite;
+.active-content{
+  background: ghostwhite;
+}
+.startexplore{
+  width: 95%;
+  padding: 4rem 0 2rem;
+  border-radius: 20px;
+  h2{
+    font-weight: 700;
+    font-size: 45px;padding-bottom: 1rem;
+  }
+}
+  .startexplore-section{
+    padding-block: 4rem;
+    h2{
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      padding-bottom: 3rem;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.cart{
+    margin-top: 1rem;
+    .icon{
+        background-color: #0F172A;
+        color: white;
+        padding: 1rem 7rem;
+        border-radius: 30px;
+    }
+    .btn-group{
+        background-color: #F5F8FB;
+        border-radius: 20px;
+        opacity: 0.6;
+        h5{
+            margin: 0 !important;
+        }
+        img{
+            max-width: 25px;
+        }
+        .subtract{
+            border: none;
+        }
+        .add{          
+            border: none;
+            background: none;
+        }
+    }
+}
+@media (max-width:720px) {
+    .detail-product{
+        .icon{
+            padding: 15px !important;
+        }
+    }
+    .item{
+        gap: 4px !important;
+    }
+    
+}

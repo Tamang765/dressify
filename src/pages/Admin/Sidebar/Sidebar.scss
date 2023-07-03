@@ -1,0 +1,48 @@
+.sidebar {
+.ps-sidebar-container{
+ background-color: rgb(95 114 103);
+ border-radius: 10px;
+}
+.css-1wvake5{
+  min-width: 0px;
+  width: 190px;
+}
+.ps-menu-button:hover{
+color: black !important;
+}
+.ps-menu-button{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.app{
+  height: 98vh;
+  background: cornflowerblue;
+}
+a{
+  color: white;
+  padding: 18px 0;
+}
+
+li{
+  .ps-menu-icon{
+    svg{
+      font-size: 20px;
+    }
+  }
+  .ps-menu-label{
+    font-size: 13px;
+  }
+}
+  .collapsed{
+    width: 5rem;
+}
+.icon-only {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: min-content;
+  }
+.dashboard-fullwidth{
+  width: 100%;
+}
+
+}

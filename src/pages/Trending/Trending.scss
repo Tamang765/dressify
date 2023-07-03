@@ -1,0 +1,131 @@
+.trending{
+    .active-content{background-color: white !important;}
+    .show-me{
+        border: 1px solid grey;
+        background-color: #272E3F;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 10px;
+        .spinner-border{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .menu{
+        display: none !important;
+        list-style: none;
+        width: 20%;
+        .dropdown{
+           .dropdown-toggle{
+                    background-color: #0F172A !important;
+                    border-radius: 10px;
+                    border: none;
+                }
+                .dropdown-menu{
+                    ul{
+                    width: 10rem;
+                    }
+                }
+            
+        }
+        span{
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .price-range{
+            h2{
+                font-size: 20px;
+                padding-bottom: 2rem;
+            }
+            .prices{
+                .price{
+                    div{
+                    border: 1px solid rgb(219, 218, 218);
+                    padding: 5px;
+                    border-radius: 10px;
+           
+                    }
+                }
+            }
+        .range-slider{
+            height: 3px !important;
+            .range-slider__range{
+              background-color:  lightblue;
+            }
+            .range-slider__thumb{
+                border: 1px solid lightblue;
+                background: white;
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+
+    .on-sale{
+        .form-check-input{
+            width: 5rem;
+            height: 4vh;
+            border:1px solid lightblue;
+            background-color: #0F766E;
+        }
+    }
+    }
+    ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    }
+
+
+    
+    .trend-tabs{
+        display: flex;
+        gap: 2rem;
+        .tabs {
+            text-align: center;
+            gap: 10px;
+            cursor: pointer;
+            box-sizing: content-box;
+            position: relative;
+            outline: none;
+          }
+        
+          .active-tabs {
+            background: #0F172A;
+            color: white;
+          }
+          
+          button {
+            font-weight: bold;
+            border: none;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 15px;
+            color: black;
+            height: 20px;
+            background-color: white;
+          }
+          button:hover{
+            background-color: rgb(217, 217, 217);
+          }
+        
+    }
+    .content{
+        width: 80%;
+    }
+    @media (max-width:750px) {
+        .trend-tabs{
+            gap: 5px;
+        }
+        .tabs{
+            padding: 0;
+            gap: 0;
+            font-size: 12px;
+        }
+    }
+
+}

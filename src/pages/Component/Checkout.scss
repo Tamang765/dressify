@@ -1,0 +1,115 @@
+
+.checkout{
+    border-radius: 20px;
+    .hidden{
+        visibility: hidden;
+    
+    }
+    .active{
+        visibility: visible;
+        width: 100%;
+    }
+    .btns-group{
+        padding-inline: 3rem;
+    .btn-checkout{
+        border: 1px solid black;
+        border-radius: 20px;
+        background: #0F172A;
+        color: white;
+        padding:1rem 3rem;
+    }
+    .btn-cancels{
+        border: none;
+        background: white;
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+        .methods{
+padding-top: 2rem;
+            .payment{
+            .payment-logo{
+                border: 2px solid rgb(197 196 196);
+                border-radius: 20px;
+                padding: 12px;
+                width: fit-content;
+            }
+            }
+            .payment-method1{
+                .card-details{
+                padding-top: 2rem;
+                input{
+                    padding-inline: 2rem;
+                }
+                }
+            }
+            .method2{
+                .internet-banking{
+                    .bank-details{
+                        strong{
+                            font-weight: 500;
+                            margin-block: 1rem;
+                        }
+                        .details{
+                        
+                            label{
+                                font-size: 13px;
+                                span{
+                                    font-size: 13px;
+                                    font-weight: 600;
+                                    color: rgb(42, 41, 41);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .method3{
+                .apple-wallet{
+                    .wallet-details{
+                        padding-inline: 3rem;
+                        font-size: 13px;
+                    }
+                }
+            }
+
+        }
+    
+    .person-info{
+        border: 1px solid lightgray;
+        padding: 1.2rem 1rem;
+        border-radius: 15px;
+        .info{
+            small{
+
+                font-size: 16px;
+            }
+        }
+        .name{
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+    .method,.bank-details{
+        padding-inline: 3rem;
+    }
+    form{
+        input{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: 5vh;
+        }
+        input:focus{
+            outline: none !important;
+            border-color: #719ECE;
+            box-shadow: 0 0 5px #689ed8;
+        }
+    }
+}
+@media (max-width:720px) {
+    .checkout{
+        width: 100%;
+    }
+}

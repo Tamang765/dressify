@@ -1,0 +1,48 @@
+.adminaccount-form{
+    .account-info{
+        filter: blur(1);
+        .admin-img{
+            height: fit-content;
+            overflow: hidden;
+            img:nth-child(1){
+                border-radius: 50%;
+                width: 8rem;
+                height: 17vh;
+                filter: brightness(0.5);
+            }
+            .overlapper{
+                top: 40px;
+                left: 50px;
+                small{
+                    font-size: 15px;
+                    font-weight: 500;
+                    transform: translateX(-40px);
+                }
+                input{
+                    width: 8rem;
+    height: 11vh;
+    opacity: 0;
+    transform: translate(-46px, -64px);
+                    cursor: pointer;
+                }
+
+
+            }
+        }
+
+            button{
+                width: fit-content;
+                background-color: #0F172A;
+                border-radius: 30px;
+                border: none;
+                padding: 20px;
+            }
+            .form-img{
+                input{
+                    padding: 0.6rem 1rem;
+                    border-radius: 25px;
+                }
+            }
+        
+    }
+}

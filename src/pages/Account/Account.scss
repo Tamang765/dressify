@@ -1,0 +1,92 @@
+.account{
+    margin-top: 10rem;
+    .title{
+        padding-left:2rem;
+    }
+    .account-navigation{
+        .startexplore{
+            background-color: white;
+            .select-explore{
+                padding: 12px;
+                background-color: white;
+                border-block: 1px solid rgb(201, 196, 196);
+                .bloc-tabs{
+                    box-shadow: none;
+                    flex-wrap: unset !important;
+                }
+                    button:nth-child(6){
+                        display: none !important;
+                    }
+                
+            }
+        }
+        .active-content{
+            background-color: white;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            .show-me{
+                border: 1px solid grey;
+                width: fit-content;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+@media (max-width:1020px) {
+    .form-img{
+        flex-direction:column ;
+    }
+    .account-section{
+        width: 100% !important; 
+    }
+    .form{
+        width: 100% !important;
+    }
+    .admin-img{
+        display: flex;
+        justify-content: center;
+    }
+    .overlapper {
+        top: 40px !important;
+        left: 11em !important;
+    }
+    .explore{
+        width: 100%;
+        display: inline-flex;
+    }
+    .select-explore{
+        width: 65vw;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .bloc-tabs{
+        flex-wrap: unset !important;
+        justify-content: unset !important;
+        gap: 0 !important;
+
+    }
+}
+    @media (max-width:500px) {
+        .explore{
+            max-width: 80vw;
+            display: inline-flex;
+        }
+        .overlapper {
+            top: 32px !important;
+            left: 115px !important;
+        }
+        
+        .select-explore{
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        .bloc-tabs{
+            flex-wrap: unset !important;
+            justify-content: unset !important;
+            gap: 0 !important;
+
+        }
+    }
+

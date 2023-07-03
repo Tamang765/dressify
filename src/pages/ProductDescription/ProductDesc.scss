@@ -1,0 +1,38 @@
+.productdesc{
+    margin-top: 10px;
+    
+    .accordion-button{
+        color: black;
+        height: 29px;
+        border-radius: 10px;
+        padding: 23px;
+        background-color: #F4F7FA;
+    }
+    .accordion-item{
+        border: none;
+    }
+    
+     .accordion-button:focus {
+        border: none;
+        color: black;
+        outline: none;
+        border-color: grey;
+        box-shadow: none;
+    }
+     .accordion-button:active {
+        color: black;
+        background-color: white !important;
+        border-color: grey;
+    }
+    .accordion-button.collapsed::after{
+        background-image: url("../../media/add.jpg") !important;
+    }
+    .accordion-button:not(.collapsed)::after{
+        background-image: url("../../media/subtract.jpg") !important;
+    }
+}
+@media (max-width:720px) {
+    .description-body{
+        font-size: 15px;
+    }
+}

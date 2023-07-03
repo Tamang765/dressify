@@ -1,0 +1,56 @@
+.earnmoney {
+  margin-top: 5rem;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5rem;
+  gap: 75px;
+  border-bottom: 1px solid rgba(169, 155, 155, 0.203);
+  img {
+    width: 95%;
+  }
+  .earn-description {
+    span {
+      display: flex;
+      img{
+        width: auto;
+      }
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 45px;
+      text-align: start;
+    }
+    p{
+      text-align: start;
+    }
+    .combo-button {
+      display: flex;
+      gap: 10px;
+      justify-content: start;
+      button {
+        margin-top: 20px;
+        border: 1px solid grey;
+        padding: 11px;
+        border-radius: 30px;
+      }
+      button:nth-child(1) {
+        background-color: cadetblue;
+      }
+    }
+  }
+}
+
+@media (max-width:750px) {
+  .earnmoney{
+    gap: 3rem;
+    flex-direction: column;
+  }
+  button{
+    padding: 0;
+  }
+  .combo-button{
+    button{
+      padding:4px 6px !important;
+    }
+  }
+}

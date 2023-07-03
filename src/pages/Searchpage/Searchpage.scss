@@ -1,0 +1,63 @@
+.searchpage{
+    margin-top: 5rem;
+    .background-filler{
+        background-color: #F0F9FF;
+        height: 15vh;
+    }
+    .category{
+        display: none !important;
+    }
+    .filter-part{
+        display: none;
+    }
+
+    .categoryfilter{
+        display: flex !important;
+        padding-bottom: 2rem;
+    }
+    .select-explore {
+        justify-content: space-between !important ;
+    }
+    .input-holder{
+        width: fit-content;
+        margin-top: -2rem;
+        input{
+            width: 40rem;
+            border-radius: 30px;
+            padding-inline: 4rem;
+            padding-block: 1.3rem;
+          border: none;
+          outline: none;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        }
+        .search-icon{
+            position: absolute;
+            left: 20px;
+            z-index: 1;
+        }
+        button{
+            background-color: #0F172A;
+            border-radius: 50%;
+            right: 10px;
+            padding: 7px;
+            display: none;
+        }
+    }
+    .navigator{
+        .active-content{
+
+            background-color: white !important;
+        }
+        .bloc-tabs{
+            box-shadow: none !important;
+        }
+        .trend-man{
+            width: 100% !important;
+            justify-content: center !important;
+            gap: 26px !important;
+        }
+        .card{
+            width: 18rem !important;
+        }
+    }
+}

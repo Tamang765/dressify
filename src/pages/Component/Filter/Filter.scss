@@ -1,0 +1,32 @@
+.filter{
+.input-range__track--active{
+    background-color: lightblue;
+}
+.input-range__slider{
+background-color: white;
+border: 1px solid lightblue;
+}
+.price-value{
+border: 1px solid lightgray;
+border-radius: 10px;
+padding: 5px ;
+}
+.form-switch .form-check-input{
+width: 5rem;
+height: 2.5rem;
+}
+.form-check-input:active{
+border: none;
+}
+.form-check-input:checked{
+background-color: green;
+border: none;
+}
+input{
+    width: 21px;
+    height: 21px;
+}
+div strong{
+    padding-block: 2rem;
+}
+}

@@ -1,0 +1,76 @@
+.discover{
+  margin-top: 5rem;
+  h2{
+    small{
+      opacity: 0.7;
+      color: grey;
+    }
+  }
+  .slick-track{
+    display: flex;
+    gap: 10px;
+  }
+.next-button{
+position: absolute;
+top: 6rem;
+right: 0;
+z-index: 1;
+}
+.prev-button{
+ position: absolute;
+ top: 6rem;
+ left: 0;
+ z-index: 1;
+}
+  .discover-details{  
+    opacity: 0.9;
+    border-radius: 10px;
+  img{
+      max-width: 11vw;
+      object-fit: contain;
+    }
+    button{
+      max-width: 9rem;
+      border-radius: 25px;
+      border: none;
+      padding: 8px;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0) 0px 1px 1px;
+    }
+
+
+
+  }
+
+  // .slick-prev::before{
+
+  // }
+  // .slick-arrow::before{
+  //   color: black;
+  //   border-radius: 1rem;
+
+
+  // }
+  // .slick-track{display: flex;
+  // gap: 2rem;}
+
+  .discover-details:hover{
+    opacity: 1;
+  }
+  @media (max-width:1020px) {
+    .slick-track{
+      display: flex;
+      gap: 1rem;
+    }
+    .discover-details{
+      gap: 10px !important;
+    }
+  }
+  @media (max-width:800px) {
+    .discover-details{
+      img{
+        max-width: 30vw !important;
+      }
+    }
+  }
+}

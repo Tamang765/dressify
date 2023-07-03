@@ -1,0 +1,13 @@
+#chart
+{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .apexcharts-yaxis-title{
+    transform: translateX(6px);
+}
+}

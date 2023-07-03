@@ -1,0 +1,108 @@
+.navigator{
+.categoryfilter{
+  display: none;
+}
+.active-category{
+  display: block;
+}
+.deactive-category{
+  display: none;
+}
+.explore{
+  .btn-filter{
+    padding: 6px 20px;
+    background: #0F172A;
+    height: 42px;
+    border-radius: 61px;
+    color: white;
+  }
+    .bloc-tabs {
+      border: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 6px 8px;
+        border-radius: 24px;
+        background-color: white;
+        align-items: center;
+        .tabs {
+          max-height: 1vh;
+        text-align: center;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0;;
+        cursor: pointer;
+        box-sizing: content-box;
+        position: relative;
+        outline: none;
+        flex-basis: max-content;
+      } 
+      .active-tabs {
+        background-color: rgb(15,23,42);
+        padding-block: 15px;
+        color: white;
+        font-weight: 500;
+        border: 1px solid;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      
+      button {
+        border: none;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        max-width: 5vw;
+        color: black;
+        height: 20px;
+      }
+    
+    }
+    .filterup-down:before{
+      content: "";
+    background-image: url("../../../media/down.jpg");
+    }
+        }
+      }
+      .content-area{
+        .content{
+          flex-grow: 1;
+        }
+        .content {
+          background: white;
+          width: 100%;
+          height: 100%;
+          display: none;
+        }
+        .content h2 {
+          padding: 0px 0 5px 0px;
+        }
+        .content hr {
+          width: 100px;
+          height: 2px;
+          background: #222;
+          margin-bottom: 5px;
+        }
+        .content p {
+          width: 100%;
+        }
+        .active-content {
+          display: block;
+          
+    .active-section{
+      display: flex;
+      flex-direction: column;
+    }
+        }
+      }
+    @media (max-width:720px) {
+      .bloc-tabs{
+        width: 35rem !important;
+      }
+    }

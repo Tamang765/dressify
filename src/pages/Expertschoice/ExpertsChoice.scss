@@ -1,0 +1,46 @@
+.expertschoice {
+  margin-top: 9rem;
+    .slick-slide{
+        width: auto;
+    }
+  .experts-details {
+    width: 400px !important;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .details{
+        gap: 8rem;
+    }
+    .three-img{
+        gap: 28px;
+    }
+    .firstimg {
+        background: #cbc6c640;
+        padding-inline: 8px;
+        border-radius: 17px;
+      img {
+        width: 20vw;
+      }
+    }
+    img {
+      width: 6vw;
+    }
+    .price {
+      border: 1px solid lightblue;
+      border-radius: 10px;
+      padding: 7px;
+    }
+  }
+  .slick-arrow::before{
+    color: black;
+  }
+  .slick-track{
+    width: auto !important;
+}
+
+  .more-section {
+    padding: 6rem;
+  }
+}

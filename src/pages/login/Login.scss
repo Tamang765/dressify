@@ -1,0 +1,28 @@
+.login-form{
+    .btn-group{
+        button{
+            background-color: rgba(209, 230, 243, 0.904);
+            border-radius: 15px;
+            border: none;
+            padding-block:9px ;
+            font-size: 14px;
+        }
+    }
+    input{
+        border-radius: 9px;
+        padding: 10px;
+        border: 1px solid rgba(228, 232, 234, 0.954);
+    }
+    .forget-pass{
+        button{
+            border: none;
+            color: red;
+            background-color:white;
+        }
+    }
+}
+@media (max-width:1020px) {
+    .login-form{
+        width: 100% !important;
+    }
+}

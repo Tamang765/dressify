@@ -1,0 +1,35 @@
+.steps{
+background-image: url("../../media/steps/background.svg");
+background-position: center;
+background-repeat: no-repeat;
+    background-position: 133px 20px;
+ .container{
+    display: flex;
+    gap: 7rem;
+ }
+    .card{
+        width: 15rem;
+        height: 42vh;
+        border: none;
+        .card-body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            button{
+                border: none;
+                border-radius: 40px;
+                width: 5vw;
+            }
+        }
+    img{
+        width: 135px;
+    }
+}
+}
+@media (max-width:750px) {
+    .steps .container {
+        gap: 0;
+    }
+}

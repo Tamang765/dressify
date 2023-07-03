@@ -1,0 +1,58 @@
+.footer{
+    margin-top: 2rem;
+    .guides, .Explore-footer{
+        font-size: 14px;
+    }
+    .icon{
+        font-size: 12px;
+        img{
+        max-width: 2rem ;
+        }
+    }
+.col{
+    img{
+        width: 4vw;
+    }
+    li{
+        font-size: 13px;
+    }
+}
+@media (max-width:1020px) {
+
+    ul{
+        font-size: 13px;
+    }
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+        padding-bottom:2rem;
+    
+        .icons{
+            gap: 10px;
+            img{
+                max-width: 2rem;
+            }
+            flex-direction: row !important;
+            padding: 0 !important;
+        }
+        span{
+            display: none;
+        }
+
+    }
+}
+
+@media (max-width:720px) {
+    .icons{
+        img{
+            max-width: 3vw !important;
+        }
+    }
+    ul{
+                    font-size: 11px;
+    }
+}
+}

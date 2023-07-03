@@ -1,0 +1,29 @@
+.department {
+  margin-top: 9rem;
+  .slick-arrow::before {
+    color: black;
+  }
+  .slick-track {
+    display: flex;
+    gap: 20px;
+  }
+  .department-details {
+    img {
+      max-width: 10vw;
+    }
+  }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+@media  (max-width:720px){
+  .department{
+    .department-details{
+      img{
+        max-width: 52vw;
+      }
+    }
+  }
+}

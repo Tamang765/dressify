@@ -1,0 +1,29 @@
+.services{
+    margin: 6px;
+    padding: 0;
+
+    .servicesDesc{
+        width: 16rem;
+        padding: 20px 1rem;
+        border-radius: 20px;
+        margin-right: 1px;
+    }
+    .servicesDesc:nth-child(1){
+        background-color: #FEF2F2;
+    }
+    .servicesDesc:nth-child(2){
+        background-color: #F0F9FF;
+        img{
+            width: 35px;
+        }
+    }
+    .servicesDesc:nth-child(3){
+        background-color: #F0FDF4;
+        img{
+            width: 30px;
+        }
+    }
+    .servicesDesc:nth-child(4){
+        background-color: #FFFBEB;
+    }
+}
